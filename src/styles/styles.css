@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0d0d0d;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    display: flex;
+}
+
+h1 {
+    color: #ff4b5c;
+    font-size: 22px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: left;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: #fff;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    background: #ff4b5c;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff2e44;
+}
+
+.demo{
+    display: flex;
+    flex-direction: column;
+}
+
+#qrcode-container {
+    margin-top: 20px;
+    padding: 15px;
+    background: #232323;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+/* The loader to simulate the building effect */
+#qrcode {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #ccc;
+    margin: 0 auto;
+}
+
+.canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.download-options {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.download-options button {
+    width: auto;
+    padding: 8px 12px;
+    font-size: 14px;
+}
+
