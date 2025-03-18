@@ -1,4 +1,4 @@
-=
+
 ---
 
 # **QRMagic – The Ultimate QR Code Generator**  
