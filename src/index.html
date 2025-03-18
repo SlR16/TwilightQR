@@ -24,13 +24,18 @@
                 <option value="WEP">WEP</option>
                 <option value="">Open (No Password)</option>
             </select>
-            <input type="checkbox" id="hidden">
-            <label for="hidden"> Hidden SSID</label>
-            <input type="checkbox" id="transparentBackground">
+            <div class="sub-container">
+                <input type="checkbox" id="hidden">
+                <label for="hidden"> Hidden SSID</label>
+            </div>
+            <div class="sub-container">
 
-            <label for="transparentBackground">Transparent Background:</label>
-            <button onclick="generateQRCode()">Generate QR Code</button>
-    
+                <input type="checkbox" id="transparentBackground">
+
+                <label for="transparentBackground">Transparent Background:</label>
+            </div>
+            <button onclick="generateQRCode()"><a class="codepen-button"><span>Generate</span></a></button>
+              
         </div>
         <div class="demo">
             <div id="qrcode-container">
