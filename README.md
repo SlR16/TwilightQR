@@ -1,5 +1,4 @@
-Got it! Here's a broader **GitHub repository description** that reflects your future expansion:  
-
+=
 ---
 
 # **QRMagic – The Ultimate QR Code Generator**  
@@ -13,4 +12,3 @@ Stay tuned for updates! 🎉
 
 ---
 
-Would you like a **logo** or **README file** for your GitHub repo as well? 🚀
