@@ -1,8 +1,8 @@
 
 ---
 
-# **QRMagic – The Ultimate QR Code Generator**  
-✨ **QRMagic** is a powerful and user-friendly QR code generator designed for multiple use cases. Starting with **Wi-Fi QR codes**, the project will expand to support various QR conversion features, making it a versatile tool for everyday needs.  
+# **TwilightQR – The Ultimate QR Code Generator**  
+✨ **TwilightQR** is a powerful and user-friendly QR code generator designed for multiple use cases. Starting with **Wi-Fi QR codes**, the project will expand to support various QR conversion features, making it a versatile tool for everyday needs.  
 
 ### 🚀 **Features (Current & Upcoming)**  
 ✅ **Wi-Fi QR Code Generator** – Connect to Wi-Fi instantly by scanning a QR code.  
